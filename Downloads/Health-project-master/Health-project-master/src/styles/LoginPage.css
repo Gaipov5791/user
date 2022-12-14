@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.login-container {
+  max-width: 509px;
+  height: 447px;
+  background: #D9D9D9;
+  margin: 288px auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-left: 77px;
+  gap: 7px;
+}
+
+label {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.login-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  text-align: center;
+  padding: 29px 0 13px;
+}
+
+.login-username,
+.login-password {
+  padding-left: 15px;
+  width: 340px;
+  height: 41px;
+  border: 1px solid #1E1E1E;
+  outline: none;
+}
+
+.login-username {
+  margin-bottom: 18px;
+}
+
+.login-password {
+  margin-bottom: 12px;
+}
+
+.forgot-pass {
+  margin-bottom: 18px;
+  padding-left: 190px;
+}
+
+.forgot-pass-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.8;
+}
+
+.login-buttons {
+  text-align: center;
+}
+
+.login-btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding: 10px 109.5px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.registration-btn {
+
+  margin-bottom: 40px;
+}
+
+.registration-link {
+  border: 1px solid #FFFFFF;
+  padding: 9px 75.5px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
