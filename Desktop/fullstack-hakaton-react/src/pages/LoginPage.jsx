@@ -13,26 +13,32 @@ const LoginPage = () => {
 					<label>
 						Имя
 					</label>
-					<input 
+					<p>
+						<input 
 						type="username" 			className="login-username" 
 						// placeholder='username'
 						// onChange={(e) => setUserName(e.target.value)}
 						// value={username}
-					/>
+						/>
+					</p>
+					
 					<label>
 						Пароль
 					</label>
-					<input 
+					<p>
+						<input 
 						type="password" 			className="login-password" 
 						// placeholder='password'
 						// onChange={(e) => setPassword(e.target.value)}
 						// value={password}
-					/>
+						/>
+					</p>
+				</form>
 					
 				<div className="forgot-pass">
-					<a href="/forgotpassword" className="forgot-pass-link">
+					<Link to="/forgotpassword" className="forgot-pass-link">
 						Забыли пароль?
-					</a>
+					</Link>
 				</div>
 				<div className="login-buttons">
 					<button className="login-btn">
@@ -44,7 +50,6 @@ const LoginPage = () => {
 						</Link>
 					</div>
 				</div>
-			</form>
 			</section>
 		</main>
 	)
