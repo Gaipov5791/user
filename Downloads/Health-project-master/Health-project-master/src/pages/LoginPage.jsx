@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/LoginPage.css';
 
 const LoginPage = () => {
-
+	
 	return (
 		<main>
 			<section className="login-container">
@@ -14,7 +14,7 @@ const LoginPage = () => {
 					</label>
 					<p>
 						<input 
-							type="username"
+							type="username" 			
 							className="login-username" 
 						/>
 					</p>
@@ -31,23 +31,16 @@ const LoginPage = () => {
 				</form>
 					
 				<div className="forgot-pass">
-					<Link 
-						to="/forgotpassword"
-						className="forgot-pass-link"
-					>
+					<Link to="/forgotpassword" className="forgot-pass-link">
 						Забыли пароль?
 					</Link>
 				</div>
-				
 				<div className="login-buttons">
 					<button className="login-btn">
 						Войти
 					</button>
 					<div className="registration-btn">
-						<Link 
-							className='registration-link' 
-							to='/registration'
-						>
+						<Link className='registration-link' to='/registration'>
 							Регистрация
 						</Link>
 					</div>
